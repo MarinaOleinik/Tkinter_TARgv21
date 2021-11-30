@@ -23,7 +23,7 @@ aken.title("Akna nimetus") #Akna pealkiri
 aken.geometry("600x400") #Akna suurus
 btn=Button(aken,text="Vajuta siia",font="Arial 20",fg="green",bg="lightblue", width=20, height=3,relief=SUNKEN)#GROOVE, RAISED Loome nupp
 lbl=Label(aken,text="...") #Pealkiri
-ent=Entry(aken,fg="blue",width=20,font="Arial 20") #Rida teksti sisestamiseks
+ent=Entry(aken,fg="blue",width=20,font="Arial 20",justify=CENTER) #Rida teksti sisestamiseks. tekxt on keskel
 var=IntVar() #StringVar()
 #var.set(3) valib kolmas button
 r1=Radiobutton(aken,text="Esimene",variable=var,value=1,command=valik)
